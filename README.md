@@ -27,5 +27,5 @@ _(Add images of your login page, signup, and main challenge UI here)_
 ### Setup Instructions
 1. Clone this repository  
    ```bash
-   git clone https://github.com/<your-username>/Evala.git
+   git clone [https://github.com/akash-kumar5/Evala.git]
 
