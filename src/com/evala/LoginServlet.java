@@ -36,7 +36,7 @@ public class LoginServlet extends HttpServlet {
                 session.setAttribute("username", username);
                 session.setAttribute("email", email);
 
-                resp.sendRedirect("challenge.jsp");
+                resp.sendRedirect("problems.jsp");
             } else {
                 req.setAttribute("error", "Invalid credentials");
                 req.getRequestDispatcher("login.jsp").forward(req, resp);
